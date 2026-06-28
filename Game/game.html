@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>English Master</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="background">
+    <div class="blur one"></div>
+    <div class="blur two"></div>
+</div>
+
+<div class="game-container">
+
+    <div class="game-header">
+
+        <div class="left">
+
+            <h2 id="unitTitle">Unit 1</h2>
+
+            <p id="questionCounter">
+                Question 1 / 10
+            </p>
+
+        </div>
+
+        <div class="right">
+
+            <div class="mini-card">
+
+                <i class="fa-solid fa-bolt"></i>
+
+                <span id="xp">0 XP</span>
+
+            </div>
+
+            <div class="mini-card">
+
+
+                <span id="lives">3</span>
+
+            </div>
+            
+<a href="index.html" class="home-btn">
+    <i class="fa-solid fa-house"></i>
+    Home
+</a>
+        </div>
+
+    </div>
+
+    <div class="progress">
+
+        <div id="progressBar"></div>
+
+    </div>
+
+    <div class="question-card">
+
+        <div class="timer">
+
+            <i class="fa-solid fa-clock"></i>
+
+            <span id="timer">20</span>
+
+        </div>
+
+        <h1 id="question"></h1>
+
+    </div>
+
+    <div id="answers" class="answers"></div>
+
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/game.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>English Master</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="background">
+
+    <div class="blur one"></div>
+    <div class="blur two"></div>
+
+</div>
+
+<header>
+
+<div class="logo">
+
+<i class="fa-solid fa-graduation-cap"></i>
+
+<span>Vajaland Academy</span>
+
+</div>
+
+<nav>
+
+
+</nav>
+<button id="themeToggle" class="theme-btn">
+    <i class="fa-solid fa-moon"></i>
+</button>
+</header>
+
+
+<section class="hero">
+
+<div class="hero-left">
+
+<h1>
+Learn English<br>
+<span>One Unit at a Time</span>
+</h1>
+
+<p>
+
+Master vocabulary through interactive quizzes, earn XP,
+track your progress and level up your English skills.
+
+</p>
+
+<button class="primary" onclick="window.open('https://www.youtube.com/@biato_academy', '_blank')">
+    Subscribe on YouTube 
+    <i class="fa-solid fa-arrow-right"></i>
+</button>
+
+</div>
+
+<div class="hero-right">
+
+<div class="stat-card">
+
+<h3>Total XP</h3>
+
+<h2 id="xpValue">0</h2>
+
+</div>
+
+<div class="stat-card">
+
+<h3>Units</h3>
+
+<h2 id="unitCount">6</h2>
+
+</div>
+
+<div class="stat-card">
+
+<h3>Lives</h3>
+
+<h2>❤️❤️❤️</h2>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="units-section">
+
+<div class="section-title">
+
+<h2>Available Units</h2>
+
+<p>Select a unit to begin learning</p>
+
+</div>
+
+<div id="units" class="units-grid"></div>
+
+</section>
+
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+
+</html>
